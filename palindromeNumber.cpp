@@ -19,7 +19,7 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
   
 Solution : 
 
-bool isPalindrome(int x) {
+  bool isPalindrome(int x) {
         long int rev = 0;
         int temp, fun = x;
         if(x < 0)
