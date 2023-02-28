@@ -35,7 +35,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 Solution : 
 
-int romanToInt(string s) {
+   int romanToInt(string s) {
         int arr[s.length()];
 
         int res = 0;
