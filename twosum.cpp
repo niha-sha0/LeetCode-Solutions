@@ -4,8 +4,6 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order.
 
- 
-
 Example 1:
 
 Input: nums = [2,7,11,15], target = 9
@@ -22,7 +20,7 @@ Output: [0,1]
 
 Solution : 
 
-vector<int> twoSum(vector<int>& nums, int target) {
+ vector<int> twoSum(vector<int>& nums, int target) {
         
         for(int i = 0; i < nums.size(); i++)
         {
