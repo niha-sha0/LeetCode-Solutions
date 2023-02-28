@@ -17,7 +17,7 @@ Output: 21
   
 Solution : 
 
-int reverse(int x) {
+  int reverse(int x) {
         int ans = 0;
         while(x != 0)
         {
