@@ -19,7 +19,7 @@ Output: false
   
 Solution : 
 
-bool isValid(string s) {
+ bool isValid(string s) {
         stack<char> str;
         for(int i=0; i<s.length(); i++)
         {
