@@ -14,7 +14,7 @@ Explanation: There is no common prefix among the input strings.
   
 Solution : 
 
-string longestCommonPrefix(vector<string>& strs) {
+  string longestCommonPrefix(vector<string>& strs) {
         int i = 0, smallest_len = strs[0].size();
         for(auto str: strs){
             if(str.size()<smallest_len) smallest_len = str.size();
